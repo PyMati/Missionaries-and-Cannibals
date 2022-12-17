@@ -12,5 +12,19 @@ COLORS = {
 }
 
 GAME_FONT = ('freesansbold.ttf', 48)
+INSTRUCTIONS_FONT = ('freesansbold.ttf', 12)
 
-gamestate = ""
+MOVE_SPEED = 2.5
+
+GAMEGRAPH = {"win": ["-", "g", "g", "g", "c", "c", "c"],
+             "lose": [
+                 ["c", "g", "g", "-", "g", "c", "c"],
+                 ["c", "c", "g", "-", "g", "g", "c"],
+
+                 ["c", "c", "g", "g", "g", "-", "c"],
+                 ["c", "c", "-", "g", "g", "g", "c"],
+                 
+                 ["c", "-", "g", "g", "g", "c", "c"],
+                 ["c", "g", "g", "g", "-", "c", "c"],
+             ]
+             }
