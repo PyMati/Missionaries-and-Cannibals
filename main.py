@@ -65,19 +65,19 @@ def main():
         pygame.display.flip()
 
     # Game objects/ characters initialization.
-    raft = Raft([150, 225], "2.png")
+    raft = Raft([150, 225], "raft.png")
     goat_1 = GameCharacter([25, 100], [25, 100], [670, 100],
-                           "example/goat.png", type="goat")
+                           "goat.png", type="goat")
     goat_2 = GameCharacter([25, 300], [25, 300], [670, 300],
-                           "example/goat.png", type="goat")
+                           "goat.png", type="goat")
     goat_3 = GameCharacter([25, 500], [25, 500], [670, 500],
-                           "example/goat.png", type="goat")
+                           "goat.png", type="goat")
     cabb_1 = GameCharacter([25, 200], [25, 200], [670, 200],
-                           "example/cabb.png", type="cabb")
+                           "cabb.png", type="cabb")
     cabb_2 = GameCharacter([25, 400], [25, 400], [670, 400],
-                           "example/cabb.png", type="cabb")
+                           "cabb.png", type="cabb")
     cabb_3 = GameCharacter([25, 0], [25, 0], [670, 0],
-                           "example/cabb.png", type="cabb")
+                           "cabb.png", type="cabb")
     all_characters = [goat_1, goat_2, goat_3, cabb_1, cabb_2, cabb_3]
 
     # For my info only
