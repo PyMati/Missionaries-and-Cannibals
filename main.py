@@ -144,7 +144,6 @@ def main():
 
                     # Main functionality when sprite is clicked.
                     if event.type == pygame.MOUSEBUTTONDOWN:
-                        print(gamestate)
                         pos = pygame.mouse.get_pos()
                         for game_character in range(0, len(all_characters)):
                             # Collide sprite detection
